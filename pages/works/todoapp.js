@@ -7,9 +7,9 @@ const Work = () => (
   <Layout title="todo">
     <Container>
       <Title>
-        Todo App <Badge>2020</Badge>
+        Todo App <Badge>2022</Badge>
       </Title>
-      <P>A simple Todo App that helps to control your time management.</P>
+      <P>A todo application. Builded with React, Material UI and framer-motion.</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
@@ -17,11 +17,11 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>ReactJS, Bootstrap</span>
+          <span>ReactJS, Material UI, framer-motion</span>
         </ListItem>
         <ListItem>
           <Meta>Last update</Meta>
-          <span>2020/08/20</span>
+          <span>2022/02/12</span>
         </ListItem>
       </List>
     </Container>
