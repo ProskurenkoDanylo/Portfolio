@@ -26,7 +26,7 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem id="todoapp" title="Todo App" thumbnail={thumbTodo}>
-              A simple Todo App that helps to control your time management.
+             A todo application. Builded with React, Material UI and framer-motion
             </WorkGridItem>
           </Section>
           <Section>
