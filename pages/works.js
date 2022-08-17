@@ -5,6 +5,7 @@ import Layout from '../components/layouts/article'
 import thumbBrainGames from '../public/images/thumbnail-braingames.png'
 import thumbDevFinder from '../public/images/thumbnail-devfinder.png'
 import thumbTodo from '../public/images/thumbnail-todo.png'
+import thumbCryptolly from '../public/images/thumbnail-cryptolly.png'
 
 const Works = () => {
   return (
@@ -14,6 +15,15 @@ const Works = () => {
           Works
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <WorkGridItem
+              id="cryptolly"
+              title="Cryptolly"
+              thumbnail={thumbCryptolly}
+            >
+              This project is a landing page dedicated to a crypto project that would allow convenient trading and asset management in cryptocurrency (which, this project would like to become, in fact).
+            </WorkGridItem>
+          </Section>
           <Section>
             <WorkGridItem
               id="devfinder"
